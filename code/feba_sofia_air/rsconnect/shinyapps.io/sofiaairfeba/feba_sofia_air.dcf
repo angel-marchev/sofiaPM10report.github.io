@@ -1,0 +1,12 @@
+name: feba_sofia_air
+title: feba_sofia_air
+username:
+account: sofiaairfeba
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 736792
+bundleId: 1956515
+url: https://sofiaairfeba.shinyapps.io/feba_sofia_air/
+when: 1553203723.48204
+asMultiple: FALSE
+asStatic: FALSE
