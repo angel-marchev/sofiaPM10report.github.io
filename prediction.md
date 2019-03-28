@@ -2,7 +2,7 @@
 
 This module explains the algorithms and techniques used to predict the PM10 particles of the so-called citizen stations defined in Module 1.
 
-As part of our research, a standalone beta version of [web application](https://sofiaairfeba.shinyapps.io/feba_sofia_air/) has been built in order to **allow end users to visualize the result of the predictive model** and get better understanding of what level of PM10 particles in Sofia to expect. This application (see **Figure 16**) could be used as a Proof of Concept to be further developed into a fully automated app with real time data feed, which would serve as a predictor of air pollution in different locations of Sofia, However, further development is not part of the current research.
+As part of our research, a standalone beta version of [web application](https://sofiaairfeba.shinyapps.io/feba_sofia_air/) has been built in order to **allow end users to visualize the result of the predictive model** and get better understanding of what level of PM10 particles in Sofia to expect. This application (see **Figure 16**) could be used as a Proof of Concept to be further developed into a fully automated app with real time data feed, which would serve as a predictor of air pollution in different locations of Sofia, However, further development is not part of the current research. Here the prediction is only for one day (namely 23.06.2018).
 
 [See the R and Java code here...](https://github.com/angel-marchev/sofiaPM10report.github.io/tree/master/code/feba_sofia_air)
 
@@ -388,9 +388,9 @@ Selecting a date to train models
 AllCitizenDaily <- do.call(bind_rows,citizenDaily)
 summary(as.factor(AllCitizenDaily$date))[1:50]
 ```
-The date with the most observations in the dataset in march is "2018-03-26" - let's use that as a reference
+The date with the most observations in the dataset "2018-03-26". However, at this date we would only have less than three months of data for training the models.
 
-The date with the most observations in the dataset in June would be "2018-06-23" - let's use that as a reference
+The next date with the most observations in the dataset is "2018-06-23" - let's use that as a reference
 
 The analysis below is done twice with both dates
 ```R
@@ -443,10 +443,11 @@ for (i in 1:length(citizenDaily)){
 rm(meu)
 ```
 Handle missing values - this process ensures that all clusters have complete information about all variables
+```R
 for (i in 1:length(citizenDaily)){
   citizenDaily[[i]] <- citizenDaily[[i]][complete.cases(citizenDaily[[i]]),]
 }
-
+```
 Choose the optimal parameters for each cluster using Lasso regression
 ```R
 set.seed(123)
@@ -460,7 +461,7 @@ We're going to use the Lasso regression to find the optimal features to predict 
 
 Setting the threshold for the beta values
 ```R
-thresholdForBeta<-0.1 \# could be changed later
+thresholdForBeta<-0.1
 ```
 Creating a list with features for each cluster
 ```R
@@ -618,7 +619,7 @@ names(test_list)<-names(model_list_final_full)
 rm(i)
 ```
 For testing purposes, we would separate all values except for the last one
-!!! NB: Here we can test vs the last day (August 14th, in case we have data for all clusters up to that date)
+!!! NB: Here we test five times the dataset vs each of the 5 last days
 ```R
 if (!require(lubridate)) {
   install.packages("lubridate")
@@ -664,7 +665,7 @@ for (i in 1:length(test_list)){
 
 Step 3: Check the accuracy of the model
 
-MAE, RMSE, etc.
+RMSE
 ```R
 final <- list()
 for (i in 1:length(arima_list)){
@@ -732,4 +733,4 @@ export .csv to feed the Shiny app
 ```R
 write.csv(ldply(shiny_set, data.frame), file = "/sofia_summary.csv", row.names = FALSE, na = "")
 ```
-[__[Acknowledgment]__](README.md) [__[Summary]__](summary.md) [__[Introduction]__](introduction.md) [__[Methodology]__](methodology.md) [__[Bias correction]__](cleandata.md) [__[Analysis]__](analysis.md) [__[Features]__](features.md) [__[Prediction]__](prediction.md)
+[__[Acknowledgment]__](README.md) [__[Introduction]__](introduction.md) [__[Methodology]__](methodology.md) [__[Bias correction]__](cleandata.md) [__[Analysis]__](analysis.md) [__[Features]__](features.md) [__[Prediction]__](prediction.md) [__[Summary]__](summary.md)
