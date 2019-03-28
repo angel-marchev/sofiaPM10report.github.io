@@ -167,7 +167,7 @@ if(!require(imputeTS)){
   library(imputeTS)
 }
 ```
-Check the numer of missing obs
+Check the number of missing obs
 ```R 
 sapply(sapply(teu,is.na),sum)
 sapply(sapply(teu,is.na),sum)/sapply(teu,dim)[1,]
@@ -269,7 +269,7 @@ Citizen data
 Data2017 <- read.csv("/data/data_bg_2017.csv",header = TRUE,na.strings = c(""," ","NA","#NA","#NULL","NULL"),stringsAsFactors = FALSE)
 Data2018 <- read.csv("/data/data_bg_2018.csv",header = TRUE,na.strings = c(""," ","NA","#NA","#NULL","NULL"),stringsAsFactors = FALSE)
 ```
-#### Step 4 - Deal with citizen data and topography data
+#### Step 3 - Deal with citizen data and topography data
 Transofrm time in Data2017 and Data2018 into POSIXct and check the classes again
 ```R
 sapply(Data2017,class)
