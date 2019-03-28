@@ -2,7 +2,7 @@
 
 ## Data description
 
-The data used in the module consist of hourly measurements of 〖PM〗_10 air pollution from citizen stations, which also includes a unique geohash indicating the citizen station location, the  〖PM〗_10 and 〖PM〗_25 air pollution measurement, temperature, humidity and pressure measurements as well as the associated time (day and hour) at which they were taken.
+The data used in the module consist of hourly measurements of PM10 air pollution from citizen stations, which also includes a unique geohash indicating the citizen station location, the PM10 and PM2.5 air pollution measurement, temperature, humidity and pressure measurements as well as the associated time (day and hour) at which they were taken.
 
 ## Procedure overview
 
@@ -15,16 +15,16 @@ The following procedure was used in order to identify citizen stations, where th
 > Step 5. Remove the station from the dataset and repeat from step 2.
 > Step 6. Stop when some condition is met.
 
+## Definitions
+
 As can be seen from the procedure described above, the following things must be defined:
 
 1. What distance and what threshold to be used to create the groups?
+The Cartesian minimum distance was calculated using the longitude and latitude coordinates of the citizen stations and a threshold of 0.01 was used.
+
 2. How to define the dissimilarity measure?
-3. How many times to repeat the process/When to stop the removal of stations?
 
-In this study the following was done:
-
-1. The Cartesian minimum distance was calculated using the longitude and latitude coordinates of the citizen stations and a threshold of 0.01 was used.
-2. The dissimilarity measure was defined the following way:
+The dissimilarity measure was defined the following way:
 
 a. The absolute difference in the PM10  for each hourly measurement, for each main station – group station was calculated.
 
@@ -33,10 +33,12 @@ b. The relative difference in the PM10  for each hourly measurement, for each ma
 c. The number of observations in common between the main station - group station pair was counted
 
 If (a) is more than 10, (b) is more than 25% than the single instance of measurement is considered dissimilar. The total number of dissimilar measurements is divided by the total number of common observations and a dissimilarity percent is calculated. However (c) must be at least 168(the number of hours in a week), in order to have a valid dissimilarity percent. If this is not the case, it is considered that the number of common observations is not enough to draw any conclusions and no score is calculated. The effect is the same, as if the group station is not part of the group.
+If (a) is more than 10, then the single instance of measurement is considered dissimilar. However (b) must be at least 168(the number of hours in a week), in order to have a valid dissimilarity measurement. If this is not the case, it is considered that the number of common observations is not enough to draw any conclusions and no score is calculated. The effect is the same, as if the group station is not part of the group.
 
-Then based on a threshold of 5%, station pairs, which are considered too different are identified, meaning that at least 5% of the common observation between the pair are too different.
+Then based on a threshold of 10 station pairs, which are considered too different are identified, meaning that at least 5% of the common observation between the pair are too different.
 
-3. The process was repeated until in each group there is no more than one main station-group station with a dissimilarity score of over 10.
+3. How many times to repeat the process/When to stop the removal of stations?
+The process was repeated until in each group there is no more than one main station-group station with a dissimilarity score of over 10.
 
 After applying the aforementioned procedure, the number of stations in the dataset was reduced from 148 to 127.
 
