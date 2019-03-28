@@ -9,10 +9,15 @@ The data used in the module consist of hourly measurements of PM10 air pollution
 The following procedure was used in order to identify citizen stations, where the data quality might be questionable and remove them from the dataset used in module 3:
 
 > Step 1. Calculate the distances between all the station pairs.
+>
 > Step 2. Create а group for each station, which include the station (will be referred to as main station) and all the station within a certain distance of it (will be referred as group station).
+>
 > Step 3. Calculate a dissimilarity measurement for each pair of main station- group station of in the group.
+> 
 > Step 4. Based on this dissimilarity measurement, identify the station which has the most main station-group station pairs with a big dissimilarity measurement. In case of a tie, pick one of the tied at random.
+>
 > Step 5. Remove the station from the dataset and repeat from step 2.
+> 
 > Step 6. Stop when some condition is met.
 
 ## Definitions
