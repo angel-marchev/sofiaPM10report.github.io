@@ -21,7 +21,7 @@ Jrc pisano
 
 Ivan Denkstatt, Ekaterina Telelink
 
-# About the teams
+# About the team
 
 ## prof. Boryana Pelova, PhD - Senior Researcher
 
@@ -41,9 +41,13 @@ Contact: vzakov@gmail.com
 ## prof. Atanas Georgiev, PhD - Project Manager
 <img align="left" height="200" src="/media/atanas_georgiev.jpg">
 Vice-Dean Administration & Projects
+
 Head of Department Industrial Economics & Management
+
 Director of the Master’s program “Economics and Management in Energy
+
 Infrastructure, and Utilities”, Co-founder of Publics.bg
+
 Publisher (since 2012) and chief editor (since 2007) of the UTILITIES magazine
 
 Contact: ageorgiev@feb.uni-sofia.bg
