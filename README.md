@@ -56,6 +56,7 @@ Contact: kiril.genov@gmail.com
 
 ## prof. Atanas Georgiev, PhD - Project Manager
 <img align="left" height="200" src="/media/atanas_georgiev.jpg">
+
 Vice-Dean Administration & Projects
 
 Head of Department Industrial Economics & Management
