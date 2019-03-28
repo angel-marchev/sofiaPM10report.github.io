@@ -197,7 +197,7 @@ In this section we use the random forest approach so as to deliver nonlinear pre
 6.	Repeat steps 1 to 5 until 100 iterations are reached. Average results on variable importance, RMSE, MAE.
 Algorithm 1: Algorithm for iterative application of the random forest approach to moderate sample size. 
 
-![](/media/features importance.png)
+![](/media/features_importance.png)
 Figure 15: Summary of feature importance expressed as percentage of the cumulative decrease in the optimized loss function. Station 9421.
 
 It is worth noting that the algorithm assures robustness of results to the random sampling process. Thus we **deliver predictive equations and out-of-sample forecasts** for all of the official stations. Estimation results are similar therefore we report variable importance diagram for station 9421 at **Figure 15** , while results for rest of stations might be found in the Appendix at the end of Section 4. The following conclusions might be drawn:
