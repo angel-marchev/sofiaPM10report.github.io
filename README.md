@@ -28,7 +28,8 @@ Ivan Denkstatt, Ekaterina Telelink
 ## prof. Angel Marchev, PhD - Senior Researcher
 
 ## Vladimir Zakov - Junior Researcher
-![](/media/vlado_zakov.jpg|height=200)|Vladimir Zakov is currently a student in the MSc Program in Big Data and Business Analytics at the Faculty of Economics and Business Administration, Sofia University “St. Kliment Ohridski”. He holds a bachelor’s degree in Economics from the University of Warwick. His research interest are in the Predictive analytics, Machine Learning and Empirical Finance. He has experience in the credit scoring, collection and customer retention analytics.
+<img align="left" height="200" src="/media/vlado_zakov.jpg">
+Vladimir Zakov is currently a student in the MSc Program in Big Data and Business Analytics at the Faculty of Economics and Business Administration, Sofia University “St. Kliment Ohridski”. He holds a bachelor’s degree in Economics from the University of Warwick. His research interest are in the Predictive analytics, Machine Learning and Empirical Finance. He has experience in the credit scoring, collection and customer retention analytics.
 Contact details: vzakov@gmail.com
 
 
