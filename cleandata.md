@@ -2,7 +2,7 @@
 
 ## Data description
 
-The data used in the module consist of hourly measurements of PM10 air pollution from citizen stations, which also includes a unique geohash indicating the citizen station location, the  PM10 and PM25 air pollution measurement, temperature, humidity and pressure measurements as well as the associated time (day and hour) at which they were taken.
+The data used in the module consist of hourly measurements of 〖PM〗_10 air pollution from citizen stations, which also includes a unique geohash indicating the citizen station location, the  〖PM〗_10 and 〖PM〗_25 air pollution measurement, temperature, humidity and pressure measurements as well as the associated time (day and hour) at which they were taken.
 
 ## Procedure overview
 
@@ -41,9 +41,9 @@ If (a) is more than 10, (b) is more than 25% than the single instance of measure
 
 Then based on a threshold of 5%, station pairs, which are considered too different are identified, meaning that at least 5% of the common observation between the pair are too different.
 
-3. The process was repeated until in each group there is no more than one main station-group station with a dissimilarity score of over 5%.
+3. The process was repeated until in each group there is no more than one main station-group station with a dissimilarity score of over 10.
 
-After applying the aforementioned procedure, the number of stations in the dataset was reduced from 148 to 134.
+After applying the aforementioned procedure, the number of stations in the dataset was reduced from 148 to 127.
 
 ## Code
 #### Set up environment
