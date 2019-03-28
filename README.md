@@ -1,3 +1,4 @@
+![](/media/60x110.jpg)
 # Acknowledgements
 
 Fund
