@@ -732,3 +732,4 @@ export .csv to feed the Shiny app
 ```R
 write.csv(ldply(shiny_set, data.frame), file = "/sofia_summary.csv", row.names = FALSE, na = "")
 ```
+[__[Acknowledgment]__](README.md) [__[Summary]__](summary.md) [__[Introduction]__](introduction.md) [__[Methodology]__](methodology.md) [__[Bias correction]__](cleandata.md) [__[Analysis]__](analysis.md) [__[Features]__](features.md) [__[Prediction]__](prediction.md)
