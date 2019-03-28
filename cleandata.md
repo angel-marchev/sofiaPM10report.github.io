@@ -9,15 +9,15 @@ The data used in the module consist of hourly measurements of PM10 air pollution
 The following procedure was used in order to identify citizen stations, where the data quality might be questionable and remove them from the dataset used in module 3:
 
 > Step 1. Calculate the distances between all the station pairs.
->
+
 > Step 2. Create а group for each station, which include the station (will be referred to as main station) and all the station within a certain distance of it (will be referred as group station).
->
+
 > Step 3. Calculate a dissimilarity measurement for each pair of main station- group station of in the group.
-> 
+
 > Step 4. Based on this dissimilarity measurement, identify the station which has the most main station-group station pairs with a big dissimilarity measurement. In case of a tie, pick one of the tied at random.
->
+
 > Step 5. Remove the station from the dataset and repeat from step 2.
-> 
+
 > Step 6. Stop when some condition is met.
 
 ## Definitions
@@ -37,7 +37,6 @@ b. The relative difference in the PM10  for each hourly measurement, for each ma
 
 c. The number of observations in common between the main station - group station pair was counted
 
-If (a) is more than 10, (b) is more than 25% than the single instance of measurement is considered dissimilar. The total number of dissimilar measurements is divided by the total number of common observations and a dissimilarity percent is calculated. However (c) must be at least 168(the number of hours in a week), in order to have a valid dissimilarity percent. If this is not the case, it is considered that the number of common observations is not enough to draw any conclusions and no score is calculated. The effect is the same, as if the group station is not part of the group.
 If (a) is more than 10, then the single instance of measurement is considered dissimilar. However (b) must be at least 168(the number of hours in a week), in order to have a valid dissimilarity measurement. If this is not the case, it is considered that the number of common observations is not enough to draw any conclusions and no score is calculated. The effect is the same, as if the group station is not part of the group.
 
 Then based on a threshold of 10 station pairs, which are considered too different are identified, meaning that at least 5% of the common observation between the pair are too different.
