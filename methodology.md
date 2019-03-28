@@ -65,4 +65,6 @@ Russo, A. et al., 2015. Neural network forecast of daily pollution concentraion 
 
 Siwek, K. &amp; Osowski, S., 2016. Data mining methods for prediction of air pollution. Intrenational Journal of Applied Mathematics and Computer Science, 26(2), pp. 467-78.
 
+[__[Acknowledgment]__](README.md) [__[Summary]__](summary.md) [__[Introduction]__](introduction.md) [__[Methodology]__](methodology.md) [__[Bias correction]__](cleandata.md) [__[Analysis]__](analysis.md) [__[Features]__](features.md) [__[Prediction]__](prediction.md)
+
 {% include mathjax.html %}
