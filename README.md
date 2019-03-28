@@ -31,7 +31,7 @@ Ivan Denkstatt, Ekaterina Telelink
 <img align="left" height="200" src="/media/vlado_zakov.jpg">
 Vladimir Zakov is currently a student in the MSc Program in Big Data and Business Analytics at the Faculty of Economics and Business Administration, Sofia University “St. Kliment Ohridski”. He holds a bachelor’s degree in Economics from the University of Warwick. His research interest are in the Predictive analytics, Machine Learning and Empirical Finance. He has experience in the credit scoring, collection and customer retention analytics.
 
-Contact details: vzakov@gmail.com
+Contact: vzakov@gmail.com
 
 
 ## Denis Stefanov - Junior Researcher
@@ -39,5 +39,11 @@ Contact details: vzakov@gmail.com
 ## Kiril Genov - Junior Researcher
 
 ## prof. Atanas Georgiev, PhD - Project Manager
+<img align="left" height="200" src="/media/atanas_georgiev.jpg">
+Vice-Dean Administration & Projects
+Head of Department Industrial Economics & Management
+Director of the Master’s program “Economics and Management in Energy
+Infrastructure, and Utilities”, Co-founder of Publics.bg
+Publisher (since 2012) and chief editor (since 2007) of the UTILITIES magazine
 
-![](/media/atanas_georgiev.jpg|height=200)|Vice-Dean Administration & Projects, Head of Department Industrial Economics & Management, Director of the Master’s program “Economics and Management in Energy, Infrastructure, and Utilities”, Co-founder of Publics.bg, Publisher (since 2012) and chief editor (since 2007) of the UTILITIES magazine
+Contact: ageorgiev@feb.uni-sofia.bg
