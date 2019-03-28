@@ -41,6 +41,9 @@
 
 
 ## Code
+
+[Download the R code here...](/code/script_module2_main_modified.R)
+
 #### Set up environment
 ```R 
 rm(list=ls())
