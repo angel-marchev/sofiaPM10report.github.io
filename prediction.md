@@ -2,7 +2,9 @@
 
 This module explains the algorithms and techniques used to predict the PM10 particles of the so-called citizen stations defined in Module 1.
 
-As part of our research, a standalone beta version of [web application](https://sofiaairfeba.shinyapps.io/feba_sofia_air/) has been built in order to **allow end users to visualize the result**** of the predictive model**and get better understanding of what level of PM10 particles in Sofia to expect. This application (see**Figure 16**) could be used as a Proof of Concept to be further developed into a fully automated app with real time data feed, which would serve as a predictor of air pollution in different locations of Sofia, However, further development is not part of the current research.
+As part of our research, a standalone beta version of [web application](https://sofiaairfeba.shinyapps.io/feba_sofia_air/) has been built in order to **allow end users to visualize the result of the predictive model** and get better understanding of what level of PM10 particles in Sofia to expect. This application (see **Figure 16**) could be used as a Proof of Concept to be further developed into a fully automated app with real time data feed, which would serve as a predictor of air pollution in different locations of Sofia, However, further development is not part of the current research.
+
+[See the R and Java code here...](https://github.com/angel-marchev/sofiaPM10report.github.io/tree/master/code/feba_sofia_air)
 
 <iframe width="600" height="600" src="https://sofiaairfeba.shinyapps.io/feba_sofia_air/" frameborder="0" allowfullscreen></iframe>
 Figure 16 Interactive map with predictions
@@ -117,7 +119,8 @@ Table 9: RMSE: summary information.
 
 ## Code
 
-## Code
+[Download the R code here...](/code/script_module2_main_modified.R)
+
 #### Set up environment
 ```R 
 rm(list=ls())
