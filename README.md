@@ -68,4 +68,4 @@ We would like to extend our warmest gratitudes to:
 - **Dr. Enrico Pisoni** from the [**Joint Research Center**](https://ec.europa.eu/jrc/en) for the timely and constructive feedback.
 - **Mr. Ivan Paspaldhziev** ([**Denkstatt**](https://denkstatt.eu)) and **Ms. Ekaterina Marinova** ([**Telelink**](https://telelink.com)) for formulating the research case and helping on many levels with ideas and words of encouragement.
 
-[__[Acknowledgment]__](README.md) [__[Introduction]__](introduction.md) [__[Methodology]__](methodology.md) [__[Bias correction]__](cleandata.md) [__[Analysis]__](analysis.md) [__[Features]__](features.md) [__[Prediction]__](prediction.md)
+[__[Acknowledgment]__](README.md) [__[Summary]__](summary.md) [__[Introduction]__](introduction.md) [__[Methodology]__](methodology.md) [__[Bias correction]__](cleandata.md) [__[Analysis]__](analysis.md) [__[Features]__](features.md) [__[Prediction]__](prediction.md)
