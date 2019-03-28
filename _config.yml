@@ -2,3 +2,6 @@ theme: jekyll-theme-leap-day
 title: "Predict the Air Pollution by Geo-locations in Sofia"
 description: "Science meets Regions: Energy and Climate Change. Social Effects of Climate Change, 29-31 March 2019"
 show_downloads: "true"
+
+# Google Analytics
+google_analytics: UA-137250663-1
