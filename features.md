@@ -1,6 +1,8 @@
 # Data Analysis (Module 2, p. 2/2)
 ## Appendix Module 2
 
+- Full correlation matrix (by all stations) [__here...__](/appendix/Cor1.xlsx)
+
  ![](/appendix/Scatter2.png)
 - Pairwise scatterplots for station 9572
  ![](/appendix/Scatter3.png)
@@ -19,8 +21,6 @@
  ![](/appendix/st60881_C1.png)
 - Plot of the correlation matrix in absolute terms for station 60881
 
-- Full correlation matrix (by all stations) [__here...__](/appendix/Cor1.xlsx)
-
  ![](/appendix/st9572_C2.png)
 - Plot of the correlation matrix in absolute terms for the response and selected features variables for station 9572
  ![](/appendix/st9616_C2.png)
@@ -30,13 +30,13 @@
  ![](/appendix/st60881_C2.png)
 - Plot of the correlation matrix in absolute terms for the response and selected features variables for station 60881
 
- ![](/appendix/st9572.png)
+ ![](/appendix/st9572.png){:height="400px"}
 - Plot: Summary of feature importance expressed as percentage of the cumulative decrease in the optimized loss function. Station 9572
- ![](/appendix/st9616.png)
+ ![](/appendix/st9616.png){:height="400px"}
 - Plot: Summary of feature importance expressed as percentage of the cumulative decrease in the optimized loss function. Station 9616
- ![](/appendix/st9642.png)
+ ![](/appendix/st9642.png){:height="400px"}
 - Plot: Summary of feature importance expressed as percentage of the cumulative decrease in the optimized loss function. Station 9642
- ![](/appendix/st60881.png)
+ ![](/appendix/st60881.png){:height="400px"}
 - Plot: Summary of feature importance expressed as percentage of the cumulative decrease in the optimized loss function. Station 60881
 
 
