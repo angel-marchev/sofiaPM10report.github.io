@@ -86,4 +86,4 @@ US EPA, 2017. Particulate Matter (PM) Basics. [Online] Available at: [https://ww
 
 World Air Quality Index, 2019. Hipodruma, Sofia Air Pollution: Real-time Air Quality Index (AQI). [Online] Available at: [https://aqicn.org/city/bulgaria/sofia/hipodruma/](https://aqicn.org/city/bulgaria/sofia/hipodruma/) [Accessed 15 03 2019].
 
-[__[Acknowledgment]__](README.md) [__[Summary]__](summary.md) [__[Introduction]__](introduction.md) [__[Methodology]__](methodology.md) [__[Bias correction]__](cleandata.md) [__[Analysis]__](analysis.md) [__[Features]__](features.md) [__[Prediction]__](prediction.md)
+[__[Acknowledgment]__](README.md) [__[Introduction]__](introduction.md) [__[Methodology]__](methodology.md) [__[Bias correction]__](cleandata.md) [__[Analysis]__](analysis.md) [__[Features]__](features.md) [__[Prediction]__](prediction.md) [__[Summary]__](summary.md)
