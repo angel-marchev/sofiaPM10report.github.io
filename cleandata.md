@@ -24,10 +24,10 @@ The following procedure was used in order to identify citizen stations, where th
 
 As can be seen from the procedure described above, the following things must be defined:
 
-1. What distance and what threshold to be used to create the groups?
+**\1. What distance and what threshold to be used to create the groups?**
 The Cartesian minimum distance was calculated using the longitude and latitude coordinates of the citizen stations and a threshold of 0.01 was used.
 
-2. How to define the dissimilarity measure?
+**\2. How to define the dissimilarity measure?**
 
 The dissimilarity measure was defined the following way:
 
@@ -41,7 +41,7 @@ If (a) is more than 10, then the single instance of measurement is considered di
 
 Then based on a threshold of 10 station pairs, which are considered too different are identified, meaning that at least 5% of the common observation between the pair are too different.
 
-3. How many times to repeat the process/When to stop the removal of stations?
+**\3. How many times to repeat the process/When to stop the removal of stations?**
 The process was repeated until in each group there is no more than one main station-group station with a dissimilarity score of over 10.
 
 After applying the aforementioned procedure, the number of stations in the dataset was reduced from 148 to 127.
