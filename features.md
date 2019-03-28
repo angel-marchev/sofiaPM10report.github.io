@@ -423,4 +423,5 @@ for (i in 1:length(eu)){
 f[[i]]=predict(eq[[i]],newdata=[\#inseart here new data])
 }
 ``` 
-[__[Acknowledgment]__](README.md) [__[Summary]__](summary.md) [__[Introduction]__](introduction.md) [__[Methodology]__](methodology.md) [__[Bias correction]__](cleandata.md) [__[Analysis]__](analysis.md) [__[Features]__](features.md) [__[Prediction]__](prediction.md)
+
+[__[Acknowledgment]__](README.md) [__[Introduction]__](introduction.md) [__[Methodology]__](methodology.md) [__[Bias correction]__](cleandata.md) [__[Analysis]__](analysis.md) [__[Features]__](features.md) [__[Prediction]__](prediction.md) [__[Summary]__](summary.md)
