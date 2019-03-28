@@ -9,15 +9,10 @@ The data used in the module consist of hourly measurements of 〖PM〗_10 air po
 The following procedure was used in order to identify citizen stations, where the data quality might be questionable and remove them from the dataset used in module 3:
 
 > Step 1. Calculate the distances between all the station pairs.
-
 > Step 2. Create а group for each station, which include the station (will be referred to as main station) and all the station within a certain distance of it (will be referred as group station).
-
 > Step 3. Calculate a dissimilarity measurement for each pair of main station- group station of in the group.
-
 > Step 4. Based on this dissimilarity measurement, identify the station which has the most main station-group station pairs with a big dissimilarity measurement. In case of a tie, pick one of the tied at random.
-
 > Step 5. Remove the station from the dataset and repeat from step 2.
-
 > Step 6. Stop when some condition is met.
 
 As can be seen from the procedure described above, the following things must be defined:
@@ -46,6 +41,9 @@ Then based on a threshold of 5%, station pairs, which are considered too differe
 After applying the aforementioned procedure, the number of stations in the dataset was reduced from 148 to 127.
 
 ## Code
+
+[Download the R code here...](/code/script_module1_main_modified_1.1.R)
+
 #### Set up environment
 ```R 
 rm(list=ls())
