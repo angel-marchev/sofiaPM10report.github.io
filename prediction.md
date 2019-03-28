@@ -7,7 +7,7 @@ As part of our research, a standalone beta version of [web application](https://
 [See the R and Java code here...](https://github.com/angel-marchev/sofiaPM10report.github.io/tree/master/code/feba_sofia_air)
 
 <iframe width="600" height="600" src="https://sofiaairfeba.shinyapps.io/feba_sofia_air/" frameborder="0" allowfullscreen></iframe>
-Figure 16 Interactive map with predictions
+Figure 16 Proof of concept for interactive map with predictions
 
 ## Summary of key findings
 
