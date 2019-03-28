@@ -9,8 +9,7 @@ Sofia lab
 
 Sofia Municipality
 
-Sofia Uni FEBA & Teo 
-
+Sofia Uni FEBA
 
 Code Foundation – Bulgaria &amp; AirBG.info, OK Lab Stuttgart &amp; LuftDaten.info
 
@@ -22,36 +21,21 @@ Jrc pisano
 
 Ivan Denkstatt, Ekaterina Telelink
 
-# About the team
+# About the teams
 
-# Research team
+## prof. Boryana Pelova, PhD - Senior Researcher
 
-## prof. Boryana Pelova, PhD
+## prof. Angel Marchev, PhD - Senior Researcher
 
-## prof. Angel Marchev, PhD
-
-## Vladimir Zakov
-
-## Denis Stefanov
-
-## Kiril Genov
+## Vladimir Zakov - Junior Researcher
+![](/media/vlado_zakov.jpg|height=200)|Vladimir Zakov is currently a student in the MSc Program in Big Data and Business Analytics at the Faculty of Economics and Business Administration, Sofia University “St. Kliment Ohridski”. He holds a bachelor’s degree in Economics from the University of Warwick. His research interest are in the Predictive analytics, Machine Learning and Empirical Finance. He has experience in the credit scoring, collection and customer retention analytics.
+Contact details: vzakov@gmail.com
 
 
-# Project manager
+## Denis Stefanov - Junior Researcher
 
-## Atanas Georgiev 
+## Kiril Genov - Junior Researcher
 
+## prof. Atanas Georgiev, PhD - Project Manager
 
-[__Summary__](introduction.html)
-
-[__Methodology__](methodology.html)
-
-[__Clean Data__](cleandata.html)
-
-[__Analysis__](analysis.html)
-
-[__Features__](feature.html)
-
-[__Prediction__](prediction.html)
-
-[__Acknowledge__](acknowledgments.html)
+![](/media/atanas_georgiev.jpg|height=200)|Vice-Dean Administration & Projects, Head of Department Industrial Economics & Management, Director of the Master’s program “Economics and Management in Energy, Infrastructure, and Utilities”, Co-founder of Publics.bg, Publisher (since 2012) and chief editor (since 2007) of the UTILITIES magazine
