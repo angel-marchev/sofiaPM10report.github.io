@@ -67,4 +67,4 @@ Director of the Master’s program “Economics and Management in Energy
 Infrastructure, and Utilities”, Co-founder of Publics.bg
 Publisher (since 2012) and chief editor (since 2007) of the UTILITIES magazine
 
-Contact: [ageorgiev@feb.uni-sofia.bg](mailto:ageorgiev@feb.uni-sofia.bg]
+Contact: [ageorgiev@feb.uni-sofia.bg](mailto:ageorgiev@feb.uni-sofia.bg)
