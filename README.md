@@ -48,14 +48,18 @@ Publisher (since 2012) and chief editor (since 2007) of the UTILITIES magazine
 
 Contact: [ageorgiev@feb.uni-sofia.bg](mailto:ageorgiev@feb.uni-sofia.bg)
 
+
+
 ## Our Gratitudes
 
 We would like to extend our warmest gratitudes to:
 
-- **Mrs. Svetla Lomeva** and the **Sofia Development Sofia Association** for organizing this important and fascinating event.
-- **Prof. Teodor Sedlarski**, Dean of **Faculty of Economics and Business Administration, Sofia University** for the invariable support to the project team
-- **Code Foundation – Bulgaria** and **AirBG.info**, also **OK Lab Stuttgart** and **LuftDaten.info** for doing the great deed they are doing and supplying all of us citezens and researchers the valuable data on air quality.
-- **Data Science Society** and its many members and volunteers for relentlessly solving this challenge.
-- **Petar Nikolov** at **A.I. Solvers** for the invaluable technical assistance.
-- **Dr. Enrico Pisoni** from the **Joint Research Center** for the timely and constructive feedback.
-- **Ivan Paspaldhziev** (**Denkstatt**) and **Ekaterina Marinova** (**Telelink**) for formulating the research case and helping on many levels with ideas and words of encouragement.
+- **Mrs. Svetla Lomeva** and the [**Sofia Development Sofia Association**](http://) for organizing this important and fascinating event.
+- **Prof. Teodor Sedlarski**, Dean of [**Faculty of Economics and Business Administration, Sofia University**](http://) for the invariable support to the project team
+- **Code Foundation – Bulgaria** and [**AirBG.info**](http://airbg.info), also **OK Lab Stuttgart** and [**LuftDaten.info**](http://luftdaten.info) for doing the great deed they are doing and supplying all of us citezens and researchers the valuable data on air quality.
+- [**Data Science Society**](http://) and its many members and volunteers for relentlessly solving this challenge.
+- **Mr. Petar Nikolov** at [**A.I. Solvers**](http://aisolvers.com) for the invaluable technical assistance.
+- **Dr. Enrico Pisoni** from the [**Joint Research Center**](http://) for the timely and constructive feedback.
+- **Mr. Ivan Paspaldhziev** ([**Denkstatt**](http://) and **Ms. Ekaterina Marinova** ([**Telelink**](http://)) for formulating the research case and helping on many levels with ideas and words of encouragement.
+
+[__Acknowledgment__](README.md) [__Introduction__](introduction.md) [__Methodology__](methodology.md) [__Bias correction__](cleandata.md) [__Analysis__](analysis.md) [__Features__](features.md) [__Prediction__](prediction.md)
