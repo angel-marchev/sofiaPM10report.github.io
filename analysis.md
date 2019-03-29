@@ -144,19 +144,40 @@ We first make **feature selection** on the basis of the correlation analysis as 
 As explained in the previous section, **we consider that feature engineering plays crucial role in the construction of accurate predictive air pollution models**. The reviewed literature suggests that lagged values of  PM10
  concentration are strong predictors. Consequently, we refer to the partial ACF (PACF) presented at **Figure 13** in order to determine the number of relevant lags. The figure suggests that only the first lag impacts significantly the level of PM10 concentration therefore we include it in the feature matrix as lagP1. The lag effect is further considered with regard to the fact that **the city of Sofia is located in a hollow** , i.e. in _case of high concentration of_ PM10 _in the previous day as well as no or weak wind both during the previous and during the current day, we might expect high concentration of_ PM10 _for the current day_. This motivates introduction of two additional features:
 
-CPt=sfcWindAVGt∗sfcWindAVGt−1
+$$
+\text{CP}_{t} = \text{sfcWindAVG}_{t}*\text{sfcWindAVG}_{t - 1}
+$$
 
-Rt=lagP1tCPt.
+$$
+R_{t} = \frac{{lagP1}_{t}}{\text{CP}_{t}}.
+$$
 
 Following the preliminary analysis findings, we define the following dummy variables:
 
-D1t={1,ifRHMAXt=100%0,else.
+$$
+{D1}_{t} = \left\{ \begin{matrix}
+1,\ if\ \text{RHMAX}_{t} = 100\% \\
+0,\ else. \\
+\end{matrix} \right.\ 
+$$
 
-D2t={1,ifRsfcWindMINt=0km/h0,else.
+$$
+{D2}_{t} = \left\{ \begin{matrix}
+1,\ if\ R\text{sfcWindMIN}_{t} = 0\ km/h \\
+0,\ else. \\
+\end{matrix} \right.\ 
+$$
 
-D3t={1,ifPRCPAVGt=0mm0,else.
+$$
+{D3}_{t} = \left\{ \begin{matrix}
+1,\ if\ \text{PRCPAVG}_{t} = 0\ mm \\
+0,\ else. \\
+\end{matrix} \right.\ 
+$$
 
-D=D1∗D2∗D3.
+$$
+D = D1*D2*D3.
+$$
 
 Finally, we introduce the day of the week and the month as predictors. The reader might find summary of features that are used in the next stage of the empirical analysis in **Table 5**.
 
