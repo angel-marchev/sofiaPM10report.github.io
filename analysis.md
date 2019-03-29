@@ -149,7 +149,7 @@ $$
 $$
 
 $$
-R_{t} = \frac{{lagP1}_{t}}{\text{CP}_{t}}.
+R_{t} = \frac{{lagP1}_{t}}{\text{CP}_{t}}
 $$
 
 Following the preliminary analysis findings, we define the following dummy variables:
