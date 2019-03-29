@@ -100,6 +100,14 @@ Figure 6. Dissection of a citizen network station (OK Lab Stuttgart, 2017)
 
 ---
 
+Preliminary data cleaning
+
+**First of all**, we cap levels of PM10 concentration by citizens’ stations taking into account official hourly measurements. We apply a threshold of 125%, i.e. all observations with values above 125% of the maximum official measurement for the particular hour are capped to this level. This choice suggests that approximately 10% of all observations are capped.
+ 
+**Secondly**, we remove stations with history of less than a preset threshold value. We select a threshold of 90 days, i.e. we analyze further only citizens’ stations with history of at least 3 months. 
+
+Data preparation
+
 The following procedure was used in order to identify citizen stations, where the data quality might be questionable and remove them from the dataset used in module 3:
 
 > - Step 1. Calculate the distances between all the station pairs.
