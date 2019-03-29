@@ -46,6 +46,7 @@ After applying the aforementioned procedure, the number of stations in the datas
 ## Code
 
 [Download the R code here...](/code/script_module1_main_modified_1.1.R)
+[Download the data here...](/data/)
 
 #### Set up environment
 ```R 
