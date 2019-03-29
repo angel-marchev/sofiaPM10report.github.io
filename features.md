@@ -43,6 +43,7 @@
 ## Code
 
 [Download the R code here...](/code/script_module2_main_modified.R)
+[Download the data here...](/data/)
 
 #### Set up environment
 ```R 
