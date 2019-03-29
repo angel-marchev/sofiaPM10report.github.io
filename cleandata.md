@@ -1,8 +1,10 @@
-# Clean data by geo locations (Module 1)
+# Bias correction of data by geo locations (Module 1)
 
 ## Data description
 
 The data used in the module consist of hourly measurements of PM10 air pollution from citizen stations, which also includes a unique geohash indicating the citizen station location, the PM10 and PM2.5 air pollution measurement, temperature, humidity and pressure measurements as well as the associated time (day and hour) at which they were taken. At the same time, we use the available dataset on PM10 concentration measured at the five official stations so as to construct benchmark levels that are important part in the process of data cleaning. 
+
+## Priliminary data cleaning
 
 Before we apply the procedure as described in the text below, we conduct preliminary data cleaning. First of all, we cap levels of PM10 concentration by citizens’ stations taking into account official hourly measurements. The figure below illustrates the percentage of observations that should be capped for application of different threshold levels. We apply a threshold of 125%, i.e. all observations with values above 125% of the maximum official measurement for the particular hour are capped to this level. This choice suggests that approximately 10% of all observations are capped.
 
