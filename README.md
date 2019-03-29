@@ -68,4 +68,6 @@ Other projects & activities:
 Contact: [ageorgiev@feb.uni-sofia.bg](mailto:ageorgiev@feb.uni-sofia.bg)
 
 
-[__[Acknowledgment]__](README.md) [__[Summary]__](summary.md) [__[Introduction]__](introduction.md) [__[Methodology]__](methodology.md) [__[Bias correction]__](cleandata.md) [__[Analysis]__](analysis.md) [__[Features]__](features.md) [__[Prediction]__](prediction.md)
+[__[Acknowledgment]__](README.md) [__[Introduction]__](introduction.md) [__[Methodology]__](methodology.md) [__[Bias correction]__](cleandata.md) [__[Analysis]__](analysis.md) [__[Features]__](features.md) [__[Prediction]__](prediction.md) [__[Summary]__](summary.md)
+
+####### *Purchase Order: A.B610473 on Request to tender: Ares(2018)5990107*
