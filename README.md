@@ -16,6 +16,7 @@ We would like to extend our warmest gratitudes to:
 - **Mr. Petar Nikolov** at [**A.I. Solvers**](https://aisolvers.com) for the invaluable technical assistance.
 - **Dr. Enrico Pisoni** from the [**Joint Research Center**](https://ec.europa.eu/jrc/en) for the timely and constructive feedback.
 - **Mr. Ivan Paspaldhziev** ([**Denkstatt**](https://denkstatt.eu)) and **Ms. Ekaterina Marinova** ([**Telelink**](https://telelink.com)) for formulating the research case, supplying the data and helping on so many levels with ideas and words of encouragement.
+- **Mrs. Mielna Yankova - Doseva** ([**Ontotext**])(https://ontotext.com)) for giving us the initial idea for the research topic.
 
 
 ## About the team
