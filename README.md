@@ -15,7 +15,7 @@ We would like to extend our warmest gratitudes to:
 - [**Data Science Society**](https://datasciencesociety.net) and its many members and volunteers for relentlessly solving this challenge.
 - **Mr. Petar Nikolov** at [**A.I. Solvers**](https://aisolvers.com) for the invaluable technical assistance.
 - **Dr. Enrico Pisoni** from the [**Joint Research Center**](https://ec.europa.eu/jrc/en) for the timely and constructive feedback.
-- **Mr. Ivan Paspaldhziev** ([**Denkstatt**](https://denkstatt.eu)) and **Ms. Ekaterina Marinova** ([**Telelink**](https://telelink.com)) for formulating the research case and helping on many levels with ideas and words of encouragement.
+- **Mr. Ivan Paspaldhziev** ([**Denkstatt**](https://denkstatt.eu)) and **Ms. Ekaterina Marinova** ([**Telelink**](https://telelink.com)) for formulating the research case, supplying the data and helping on so many levels with ideas and words of encouragement.
 
 
 ## About the team
