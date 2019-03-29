@@ -2,7 +2,19 @@
 
 ## Data description
 
-The data used in the module consist of hourly measurements of PM10 air pollution from citizen stations, which also includes a unique geohash indicating the citizen station location, the PM10 and PM2.5 air pollution measurement, temperature, humidity and pressure measurements as well as the associated time (day and hour) at which they were taken.
+The data used in the module consist of hourly measurements of PM10 air pollution from citizen stations, which also includes a unique geohash indicating the citizen station location, the PM10 and PM2.5 air pollution measurement, temperature, humidity and pressure measurements as well as the associated time (day and hour) at which they were taken. At the same time, we use the available dataset on PM10 concentration measured at the five official stations so as to construct benchmark levels that are important part in the process of data cleaning. 
+
+Before we apply the procedure as described in the text below, we conduct preliminary data cleaning. First of all, we cap levels of PM10 concentration by citizens’ stations taking into account official hourly measurements. The figure below illustrates the percentage of observations that should be capped for application of different threshold levels. We apply a threshold of 125%, i.e. all observations with values above 125% of the maximum official measurement for the particular hour are capped to this level. This choice suggests that approximately 10% of all observations are capped.
+
+![](/media/P1CapPercentage.png)
+
+Figure: Percentage of observations that should be capped at different threshold levels. 
+
+Secondly, we remove stations with history of less than a preset threshold value. The figure below presents the percentage of stations as a function of available observation days. We select a threshold of 90 days, i.e. we analyze further only citizens’ stations with history of at least 3 months. As might be seen from the figure less than 25% of all available stations have observation history of less than 3 months. We remove these stations from our sample. 
+
+![](/media/ObservationThreshold.png)
+
+Figure: Percentage of stations as a function of available observation days. 
 
 ## Procedure overview
 
