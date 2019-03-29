@@ -3,6 +3,21 @@
 ![](/media/60-110.jpg)
 
 
+## Our Gratitudes
+
+We would like to extend our warmest gratitudes to:
+
+- **Mrs. Yordanka Fandakova, Mayor of Sofia** and [**Sofia Municipality**](https://sofia.bg).
+- **Mrs. Svetla Lomeva** and the [**Sofia Development Sofia Association**](https://sofia-da.eu/en) for organizing this important and fascinating event.
+- **Ms. Elitsa Panayotova** from [**Sofia Green City**](https://www.facebook.com/SOfiaGreenCity/) for the enless passion.
+- **Code Foundation – Bulgaria** and [**AirBG.info**](https://airbg.info), also **OK Lab Stuttgart** and [**LuftDaten.info**](https://luftdaten.info) for doing the great deed they are doing and supplying all of us citezens and researchers the valuable data on air quality.
+- **Prof. Teodor Sedlarski**, Dean of [**Faculty of Economics and Business Administration, Sofia University**](https://www.uni-sofia.bg/index.php/bul/universitet_t/fakulteti/stopanski_fakultet) for the invariable support to the project team
+- [**Data Science Society**](https://datasciencesociety.net) and its many members and volunteers for relentlessly solving this challenge.
+- **Mr. Petar Nikolov** at [**A.I. Solvers**](https://aisolvers.com) for the invaluable technical assistance.
+- **Dr. Enrico Pisoni** from the [**Joint Research Center**](https://ec.europa.eu/jrc/en) for the timely and constructive feedback.
+- **Mr. Ivan Paspaldhziev** ([**Denkstatt**](https://denkstatt.eu)) and **Ms. Ekaterina Marinova** ([**Telelink**](https://telelink.com)) for formulating the research case and helping on many levels with ideas and words of encouragement.
+
+
 ## About the team
 
 #### prof. Boryana Pelova, PhD - Senior Researcher
@@ -52,20 +67,5 @@ Other projects & activities:
 
 Contact: [ageorgiev@feb.uni-sofia.bg](mailto:ageorgiev@feb.uni-sofia.bg)
 
-
-  
-
-
-## Our Gratitudes
-
-We would like to extend our warmest gratitudes to:
-
-- **Mrs. Svetla Lomeva** and the [**Sofia Development Sofia Association**](https://sofia-da.eu/en) for organizing this important and fascinating event.
-- **Prof. Teodor Sedlarski**, Dean of [**Faculty of Economics and Business Administration, Sofia University**](https://www.uni-sofia.bg/index.php/bul/universitet_t/fakulteti/stopanski_fakultet) for the invariable support to the project team
-- **Code Foundation – Bulgaria** and [**AirBG.info**](https://airbg.info), also **OK Lab Stuttgart** and [**LuftDaten.info**](https://luftdaten.info) for doing the great deed they are doing and supplying all of us citezens and researchers the valuable data on air quality.
-- [**Data Science Society**](https://datasciencesociety.net) and its many members and volunteers for relentlessly solving this challenge.
-- **Mr. Petar Nikolov** at [**A.I. Solvers**](https://aisolvers.com) for the invaluable technical assistance.
-- **Dr. Enrico Pisoni** from the [**Joint Research Center**](https://ec.europa.eu/jrc/en) for the timely and constructive feedback.
-- **Mr. Ivan Paspaldhziev** ([**Denkstatt**](https://denkstatt.eu)) and **Ms. Ekaterina Marinova** ([**Telelink**](https://telelink.com)) for formulating the research case and helping on many levels with ideas and words of encouragement.
 
 [__[Acknowledgment]__](README.md) [__[Summary]__](summary.md) [__[Introduction]__](introduction.md) [__[Methodology]__](methodology.md) [__[Bias correction]__](cleandata.md) [__[Analysis]__](analysis.md) [__[Features]__](features.md) [__[Prediction]__](prediction.md)
