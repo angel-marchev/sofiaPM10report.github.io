@@ -161,6 +161,8 @@ This module explains the algorithms and techniques used to predict the PM10 part
 -   Feature engineered variables predicting the PM10 concentration levels of official stations could be used to predict citizen stations with as well
 -   Logarithmic transformation improves model accuracy for PM10 prediction
 
+---
+
 ![](/media/17.png)
 
 Figure 17. Flowchart of Module 3 analysis.
