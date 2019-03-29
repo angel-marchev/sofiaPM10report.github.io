@@ -144,7 +144,7 @@ We first make **feature selection** on the basis of the correlation analysis as 
 As explained in the previous section, **we consider that feature engineering plays crucial role in the construction of accurate predictive air pollution models**. The reviewed literature suggests that lagged values of  PM10
  concentration are strong predictors. Consequently, we refer to the partial ACF (PACF) presented at **Figure 13** in order to determine the number of relevant lags. The figure suggests that only the first lag impacts significantly the level of PM10 concentration therefore we include it in the feature matrix as lagP1. The lag effect is further considered with regard to the fact that **the city of Sofia is located in a hollow** , i.e. in _case of high concentration of_ PM10 _in the previous day as well as no or weak wind both during the previous and during the current day, we might expect high concentration of_ PM10 _for the current day_. This motivates introduction of two additional features:
 
-![](/media/analisys1.png)
+![](/media/analysis1.png)
 
 ![](/media/analisys2.png)
 
