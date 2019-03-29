@@ -31,13 +31,13 @@ Figure 1: Urban population exposure to concentrations above EU standards. Source
 
 Figure 2: Comparative visualization of fine particles with diameter less than 10µm mixture of solid particles and liquid droplets found in the air (PM10) Source: (US EPA, 2017)
 
+---
+
 ### Objectives
 
 ![](media/sofia_info.png)
 
 Figure 3: AirSofia.Info citizen measurement network (AirBG.info / Code Foundation - Bulgaria, 2017-2019).
-
----
 
 ![](/media/aqi.png)
 
