@@ -37,6 +37,8 @@ Figure 2: Comparative visualization of fine particles with diameter less than 10
 
 Figure 3: AirSofia.Info citizen measurement network (AirBG.info / Code Foundation - Bulgaria, 2017-2019).
 
+---
+
 ![](/media/aqi.png)
 
 Figure 4: Locations of official measurement stations (World Air Quality Index, 2019).
