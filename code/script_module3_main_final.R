@@ -243,11 +243,10 @@ load("./citizenDaily.RData") # Load output file from modul 1 - a list of cluster
 
 AllCitizenDaily <- do.call(bind_rows,citizenDaily)
 summary(as.factor(AllCitizenDaily$date))[1:50]
-# The date with the most observations in the dataset in march is "2018-03-26" - let's use that as a reference
+# The date with the most observations in the dataset "2018-03-26". However, at this date we would only have less than three months of data for training the models.
 
-# The date with the most observations in the dataset in June would be "2018-06-23" - let's use that as a reference
+# The next date with the most observations in the dataset is "2018-06-23" - let's use that as a reference
 
-# The analysis below is done twice with both dates
 
 rm(AllCitizenDaily, i)
 
@@ -476,7 +475,7 @@ names(test_list)<-names(model_list_final_full)
 rm(i)
 
 # For testing purposes, we would separate all values except for the last one
-# !!! NB: Here we can test vs the last day (August 14th, in case we have data for all clusters up to that date)
+# !!! NB: Here we test five times the dataset vs each of the 5 last days
 if (!require(lubridate)) {
   install.packages("lubridate")
   require(lubridate)
@@ -522,7 +521,7 @@ for (i in 1:length(test_list)){
 
 # Step 3: Check the accuracy of the model ----
 
-# MAE, RMSE, etc.
+# RMSE
 final <- list()
 for (i in 1:length(arima_list)){
   
