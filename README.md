@@ -40,19 +40,19 @@ Contact: [angel.marchev@aisolvers.com](mailto:angel.marchev@aisolvers.com)
 <img align="right" height="200" src="/media/vlado_zakov.jpg">
 Vladimir Zakov is currently a student in the MSc Program in Big Data and Business Analytics at the Faculty of Economics and Business Administration, Sofia University “St. Kliment Ohridski”. He holds a bachelor’s degree in Economics from the University of Warwick. His research interest are in the Predictive analytics, Machine Learning and Empirical Finance. He has experience in the credit scoring, collection and customer retention analytics.
 
-Contact: [vzakov@gmail.com](mailto:vzakov@gmail.com]
+Contact: [vzakov@gmail.com](mailto:vzakov@gmail.com)
 
 #### Denis Stefanov - Junior Researcher
 <img align="left" height="200" src="/media/denis_stefanov.jpg">
 Denis Stefanov is currently a student in the MSc Program in Big Data and Business Analytics at the Faculty of Economics and Business Administration, Sofia University “St. Kliment Ohridski”. He loves to analyze almost everything from the surrounding environment. Causal links are the thing he has a great curiosity about. His areas of interests are Business Intelligence, Data Integration, Data Engineering and Predictive Modelling. He has an experience in several BI and Advanced Analytics projects, being responsible for different types of activities.
 
-Contact: [denisstefanov2@yahoo.com](mailto:denisstefanov2@yahoo.com]
+Contact: [denisstefanov2@yahoo.com](mailto:denisstefanov2@yahoo.com)
 
 #### Kiril Genov - Junior Researcher
 <img align="right" height="200" src="/media/kiril_genov.jpg">
 Kiril Genov is currently a student at the MSc Program in Business Analytics at the Faculty of Economics and Business Administration, Sofia University “St. Kliment Ohridski”. He also holds a Master’s Degree in Macroeconomics and a Bachelor’s Degree in Economics from the same faculty. His research interests are in the area of Predictive Analytics, Exploratory Analysis and Text Analytics. Kiril has significant experience in financial management and control and recently he’s focused on planning and implementation activities of various IT projects in the field of data analytics, AI and cognitive chat bots.
 
-Contact: [kiril.genov@gmail.com](mailto:kiril.genov@gmail.com]
+Contact: [kiril.genov@gmail.com](mailto:kiril.genov@gmail.com)
 
 #### prof. Atanas Georgiev, PhD - Project Manager
 <img align="left" height="200" src="/media/atanas_georgiev.jpg">
