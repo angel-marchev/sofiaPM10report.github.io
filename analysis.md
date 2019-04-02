@@ -152,6 +152,8 @@ As explained in the previous section, **we consider that feature engineering pla
 
 ![](/media/analysis4.png){:height="40px"}
 
+![](/media/analysis4_5.png){:height="40px"}
+
 ![](/media/analysis5.png){:height="15px"}
 
 Finally, we introduce the day of the week and the month as predictors. The reader might find summary of features that are used in the next stage of the empirical analysis in **Table 5**.
