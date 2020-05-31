@@ -43,7 +43,7 @@
 ## Code
 
 [Download the R code here...](/code/script_module2_main_modified.R)
-[Download the data here...](/data/)
+[Download the data here...](/https://github.com/angel-marchev/sofiaPM10report.github.io/tree/master/data)
 
 #### Set up environment
 ```R 
