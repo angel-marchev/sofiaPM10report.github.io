@@ -21,7 +21,7 @@ We would like to extend our warmest gratitudes to:
 
 ## About the team
 
-#### prof. Boryana Pelova, PhD - Senior Researcher
+#### prof. Boryana Bogdanova, PhD - Senior Researcher
 <img align="right" height="200" src="/media/b_pelova.jpg">
 
 Boryana Bogdanova is Associate Professor at the Department of Statistics and Econometrics, Faculty of Economics and Business Administration, Sofia University “St. Kliment Ohridski”. She is co-founder of the MSc Program in Business Analytics at the same department and she teaches there core courses such as Data Mining, Supervised and Unsupervised Statistical Learning, Prediction Analytics, etc. Her research interest are in the field of Predictive Modelling, Time Series Analysis, Wavelet Analysis, Empirical Finance, and Behavioral Finance. She has significant experience as team member and team leader of national and international research projects as well as numerous publications in refereed and indexed journals.
